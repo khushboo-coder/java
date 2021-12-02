@@ -1,0 +1,56 @@
+package questions;
+
+public class Pattern4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int n = 5;
+int row =1;
+int nst = 1;
+int nsp = n-1;
+while(row<=n) {
+	int csp = 1;// for space
+	while(csp<=nsp) {
+		System.out.print("  ");
+		csp++;
+	}
+	int cst = 1;// for stars
+	while(cst<=nst) {
+		System.out.print("* ");
+		cst++;
+	}
+	//System.out.println();
+	row++;
+	
+	System.out.println();
+	nsp--;
+	nst++;
+	//row++;// for next row
+	//System.out.println();
+}
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
