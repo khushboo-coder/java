@@ -14,18 +14,18 @@ public class selection_sort {
 	}
 
 	public static void Sort(int[] arr) {
-		for (int couter = 0; couter < arr.length; couter++) {// 0 to n-1
-			int min = couter;
+		for (int counter = 0; counter < arr.length; counter++) {// 0 to n-1
+			int min = counter;
 
-			for (int i = couter + 1; i < arr.length; i++) {
+			for (int i = counter + 1; i < arr.length; i++) {
 				if (arr[i] < arr[min]) {
 					min = i;
 				}
 
 			}
 
-			int temp = arr[couter];
-			arr[couter] = arr[min];
+			int temp = arr[counter];
+			arr[counter] = arr[min];
 			arr[min] = temp;
 
 		}

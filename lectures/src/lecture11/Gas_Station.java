@@ -13,7 +13,7 @@ public class Gas_Station {
 	public static int CompleteCircuit(int[] gas, int[] cost) {
 
 		int net = 0;
-		int curr = 0;
+		int curr = 0;// current fuel
 		int si = 0;
 		for (int i = 0; i < gas.length; i++) {
 			net = net + (gas[i] - cost[i]);

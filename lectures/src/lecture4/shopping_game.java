@@ -6,6 +6,8 @@ public class shopping_game {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Scanner sc = new Scanner(System.in);
+int t = sc.nextInt();
+while (t > 0) {
 int m = sc.nextInt();
 int n = sc.nextInt();
 int a = 0;
@@ -26,6 +28,8 @@ while(a<=m && h<=n) {
 	i++;	
 	
 }
+t--;
+	}
 	}
 
 }
